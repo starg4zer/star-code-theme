@@ -1,1 +1,70 @@
 # star-code README
+
+## Those are VSCode settings that works best of all with that theme:
+
+```json
+{
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.cursorStyleInactive": "none",
+  "terminal.integrated.cursorStyle": "line",
+  "material-icon-theme.hidesExplorerArrows": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.colorCustomizations": {
+    "editorCursor.background": "#00eeff",
+    "editorCursor.foreground": "#00eeff",
+    "terminalCursor.foreground": "#00eeff",
+    "editorSuggestWidget.selectedBackground": "#241b2f",
+    "editorSuggestWidget.selectedForeground": "#0cdacc",
+    "editorSuggestWidget.background": "#241b2f",
+    "editorGroup.border": "#241b2f",
+    "editor.background": "#241b2f",
+    "terminal.background": "#241b2f",
+    "activityBar.background": "#241b2f",
+    "welcomePage.background": "#241b2f",
+    "editorWidget.background": "#241b2f",
+    "sideBar.background": "#241b2f",
+    "panel.border": "#241b2f",
+    "list.activeSelectionBackground": "#331e5b",
+    "list.inactiveSelectionBackground": "#331e5b",
+    "list.focusBackground": "#331e5b",
+    "list.hoverBackground": "#331e5b",
+    "dropdown.background": "#241b2f"
+  },
+  "editor.lineNumbers": "off",
+  "editor.glyphMargin": false,
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.matchBrackets": "never",
+  "editor.lightbulb.enabled": false,
+  "editor.showFoldingControls": "never",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.horizontalScrollbarSize": 8,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.5,
+  "breadcrumbs.enabled": false,
+  "explorer.compactFolders": false,
+  "scm.diffDecorations": "minimap",
+  "files.insertFinalNewline": true
+}
+```
+
+## Enjoy!

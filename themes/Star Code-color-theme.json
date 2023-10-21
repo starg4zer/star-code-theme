@@ -44,7 +44,7 @@
     "editorGroupHeader.tabsBackground": "#241b2f",
     "tab.border": "#241b2f00",
     "tab.activeBorder": "#880088",
-    "tab.inactiveBackground": "#262335",
+    "tab.inactiveBackground": "#241b2f",
     "editorLineNumber.foreground": "#ffffff73",
     "editorLineNumber.activeForeground": "#ffffffcc",
     "editor.selectionBackground": "#ffffff20",
@@ -99,6 +99,7 @@
     "extensionButton.prominentHoverBackground": "#ff7edb",
     "pickerGroup.foreground": "#f97e72ea",
     "terminal.foreground": "#ffffff",
+    "terminal.background": "#241b2f",
     "terminal.ansiBlue": "#03edf9",
     "terminal.ansiBrightBlue": "#03edf9",
     "terminal.ansiBrightCyan": "#03edf9",
@@ -132,7 +133,6 @@
     "editorSuggestWidget.background": "#241b2f",
     "editorGroup.border": "#241b2f",
     "editor.background": "#241b2f",
-    "terminal.background": "#241b2f",
     "activityBar.background": "#241b2f",
     "welcomePage.background": "#241b2f",
     "editorWidget.background": "#241b2f",
@@ -294,19 +294,6 @@
         "fontStyle": "italic"
       }
     },
-    // {
-    //   "name": "Tag attribute HTML value",
-    //   "scope": [
-    //     "meta.attribute.lang.html",
-    //     "string.quoted.double.html",
-    //     "meta.attribute.lang.html",
-    //     "meta.tag-stuff",
-    //     "source.vue"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#06ccd3"
-    //   }
-    // },
     {
       "name": "Tag attribute HTML value + punctuation",
       "scope": [
@@ -330,13 +317,18 @@
       }
     },
     {
-      "name": "Tag attribute VUE boolean value",
-      "scope": [
-        "constant.language.boolean.true.ts",
-        "constant.language.boolean.false.ts"
-      ],
+      "name": "Tag attribute VUE boolean true",
+      "scope": ["constant.language.boolean.true.ts"],
       "settings": {
-        "foreground": "#a5f5ed",
+        "foreground": "#7FF676",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Tag attribute VUE boolean false",
+      "scope": ["constant.language.boolean.false.ts"],
+      "settings": {
+        "foreground": "#F85F5F",
         "fontStyle": "bold"
       }
     },

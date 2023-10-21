@@ -2,7 +2,7 @@
   "name": "star-code-theme",
   "displayName": "Star Code",
   "description": "Dark theme for minimalistic setup, mostly suitable for VueJS developers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "OmniTech",
   "repository": {
     "type": "git",

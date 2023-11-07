@@ -188,10 +188,17 @@
       }
     },
     {
-      "name": "Variable",
-      "scope": ["variable.other.constant", "variable.other.readwrite.alias.js"],
+      "name": "Const Variable",
+      "scope": ["variable.other.constant", "variable.other.readwrite.alias"],
       "settings": {
         "foreground": "#7825f6"
+      }
+    },
+    {
+      "name": "Let Variable",
+      "scope": ["variable.other.readwrite"],
+      "settings": {
+        "foreground": "#ab78f7"
       }
     },
     {
@@ -387,9 +394,39 @@
     },
     {
       "name": "JS Export",
-      "scope": ["keyword.control.export.js", "keyword.control.import.js"],
+      "scope": [
+        "keyword.control.export.js",
+        "keyword.control.export.ts",
+        "keyword.control.import.js",
+        "keyword.control.import.ts"
+      ],
       "settings": {
         "foreground": "#72f1b8"
+      }
+    },
+    {
+      "name": "Var object",
+      "scope": ["variable.other.object.ts", "variable.other.object.js"],
+      "settings": {
+        "foreground": "#f1be72"
+        // "foreground": "#f1f172"
+      }
+    },
+    {
+      "name": "Var object property",
+      "scope": [
+        "variable.other.object.property.ts",
+        "variable.other.object.property.js"
+      ],
+      "settings": {
+        "foreground": "#729af1"
+      }
+    },
+    {
+      "name": "Var parameter",
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#f172cd"
       }
     },
     {
@@ -464,6 +501,20 @@
       "scope": ["meta.object-literal.key", "support.type.property-name"],
       "settings": {
         "foreground": "#ff7edb"
+      }
+    },
+    {
+      "name": "Object literal key / property",
+      "scope": ["entity.name.type.interface"],
+      "settings": {
+        "foreground": "#FE4479"
+      }
+    },
+    {
+      "name": "Object literal key / property",
+      "scope": ["entity.name.type", "meta.attribute.class.html"],
+      "settings": {
+        "foreground": "#d27eff"
       }
     },
     {
@@ -555,13 +606,6 @@
         "foreground": "#72f1b8"
       }
     },
-    // {
-    //   "name": "JS object path",
-    //   "scope": "variable.other.constant.property.js, variable.other.property.js",
-    //   "settings": {
-    //     "foreground": "#2ee2fa"
-    //   }
-    // },
     {
       "name": "Color",
       "scope": "constant.other.color",
